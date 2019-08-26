@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(36, 36, 36);
+  color: #fafafa;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+#body-container {
+  padding-left: 10vw;
+}
+
+.button-style {
+  background-color: rgb(36, 36, 36);
+  border: 0.5px solid #fafafa;
+  border-radius: 10%;
+  color: #fafafa;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.button-style:hover {
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: rgb(36, 36, 36);
+  border: 0.5px solid #fafafa;
+  border-radius: 100%;
+  color: #fafafa;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+}
+
+input[type="text"] {
+  background-color: rgb(36, 36, 36);
+  border: none;
+  border-bottom: 1px solid #fafafa;
+  color: #fafafa;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.list-item {
+  padding: 5px 0;
+  transition: font-size 0.3s;
+}
+
+.list-item:hover {
+  font-size: 24px;
+}
